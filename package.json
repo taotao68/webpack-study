@@ -1,0 +1,48 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --config ./config/webpack.dev.js --env development",
+    "build:prod": "webpack --config ./config/webpack.prod.js --env production",
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/runtime-corejs3": "^7.19.6",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.25.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.7",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.0.0",
+    "less-loader": "^7.3.0",
+    "mini-css-extract-plugin": "^1.6.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^4.1.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.16.1",
+    "webpack-bundle-analyzer": "^4.6.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0",
+    "yargs": "^17.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "lodash-es": "^4.17.21"
+  }
+}
